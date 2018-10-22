@@ -1,7 +1,5 @@
 fileFormatVersion: 2
 guid: 7308706bcdee54d2a969cd0093e145a2
-timeCreated: 1462889691
-licenseType: Free
 TextureImporter:
   fileIDToRecycleName:
     21300000: dorm-tiles_0
@@ -20,14 +18,17 @@ TextureImporter:
     21300026: dorm-tiles_13
     21300028: dorm-tiles_14
     21300030: dorm-tiles_15
-  serializedVersion: 2
+  externalObjects: {}
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
-    enableMipMap: 1
+    enableMipMap: 0
+    sRGBTexture: 1
     linearTexture: 0
-    correctGamma: 0
     fadeOut: 0
     borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
     mipMapFadeDistanceStart: 1
     mipMapFadeDistanceEnd: 3
   bumpmap:
@@ -36,37 +37,81 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
-  generateCubemap: 0
+  generateCubemap: 6
   cubemapConvolution: 0
-  cubemapConvolutionSteps: 8
-  cubemapConvolutionExponent: 1.5
   seamlessCubemap: 0
   textureFormat: -3
   maxTextureSize: 2048
   textureSettings:
+    serializedVersion: 2
     filterMode: 0
     aniso: 16
-    mipBias: -1
-    wrapMode: 1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
   nPOTScale: 0
   lightmap: 0
-  rGBM: 0
   compressionQuality: 50
-  allowsAlphaSplitting: 0
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spritePixelsToUnits: 1
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
   alphaIsTransparency: 1
+  spriteTessellationDetail: -1
   textureType: 8
-  buildTargetSettings: []
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: iPhone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
   spriteSheet:
+    serializedVersion: 2
     sprites:
-    - name: dorm-tiles_0
+    - serializedVersion: 2
+      name: dorm-tiles_0
       rect:
         serializedVersion: 2
         x: 1
@@ -77,7 +122,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_1
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fe057a4c6dd442c9a17007a1e038757
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_1
       rect:
         serializedVersion: 2
         x: 19
@@ -88,7 +142,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_2
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7a188497e584e0b8ea0c5356cf8771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_2
       rect:
         serializedVersion: 2
         x: 37
@@ -99,7 +162,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_3
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcaaa5d1031d244ffb2e0cd5574c0c8e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_3
       rect:
         serializedVersion: 2
         x: 55
@@ -110,7 +182,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_4
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94f7525669e54488c92ac279a0dd708e
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_4
       rect:
         serializedVersion: 2
         x: 73
@@ -121,7 +202,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_5
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a795b6b2b617643e38fba11e19777b42
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_5
       rect:
         serializedVersion: 2
         x: 91
@@ -132,7 +222,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_6
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1b597b932fccf4117b61484dae0a7224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_6
       rect:
         serializedVersion: 2
         x: 109
@@ -143,7 +242,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_7
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e92a13c30f1241bd99bb5c57a3bc8b5
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_7
       rect:
         serializedVersion: 2
         x: 127
@@ -154,7 +262,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_8
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a461498f362db4486a7c8a403e9c2c37
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_8
       rect:
         serializedVersion: 2
         x: 1
@@ -165,7 +282,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_9
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79052675f0277429f99d99dbc23837b8
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_9
       rect:
         serializedVersion: 2
         x: 19
@@ -176,7 +302,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_10
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83cb3e715fc93442a841486be2537260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_10
       rect:
         serializedVersion: 2
         x: 37
@@ -187,7 +322,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_11
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f43ec6b081d841b391bccfcfee248d2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_11
       rect:
         serializedVersion: 2
         x: 55
@@ -198,7 +342,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_12
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3f77ebccf2e64957b787010becbe6e0
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_12
       rect:
         serializedVersion: 2
         x: 73
@@ -209,7 +362,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_13
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64958cbf7a37b4761ad078e96cfe67d6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_13
       rect:
         serializedVersion: 2
         x: 91
@@ -220,7 +382,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_14
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b62d9b01bacd41b7b4d2ff2c0023d22
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_14
       rect:
         serializedVersion: 2
         x: 109
@@ -231,7 +402,16 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
-    - name: dorm-tiles_15
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e66637b989e4e4cb3af7e91d35cb0132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dorm-tiles_15
       rect:
         serializedVersion: 2
         x: 127
@@ -242,8 +422,25 @@ TextureImporter:
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de79b2177ef3e4c3ab28d63fc2043479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
-  spritePackingTag: 
+    physicsShape: []
+    bones: []
+    spriteID: 5f0644f762eb842bf8b066e16a6ecaa9
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: Sprites
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
