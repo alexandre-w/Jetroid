@@ -54,8 +54,10 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\jetroid\Scripts\CameraFollow.cs" />
+     <Compile Include="Assets\jetroid\Scripts\Collectible.cs" />
      <Compile Include="Assets\jetroid\Scripts\Player.cs" />
      <Compile Include="Assets\jetroid\Scripts\PlayerController.cs" />
+     <Compile Include="Assets\jetroid\Scripts\RandomSprite.cs" />
      <Compile Include="Assets\TileMapEditor\Scripts\TileBrush.cs" />
      <Compile Include="Assets\TileMapEditor\Scripts\TileMap.cs" />
  <Reference Include="UnityEditor.StandardEvents">
