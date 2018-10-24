@@ -55,6 +55,8 @@
   <ItemGroup>
      <Compile Include="Assets\jetroid\Scripts\CameraFollow.cs" />
      <Compile Include="Assets\jetroid\Scripts\Collectible.cs" />
+     <Compile Include="Assets\jetroid\Scripts\Debris.cs" />
+     <Compile Include="Assets\jetroid\Scripts\Explode.cs" />
      <Compile Include="Assets\jetroid\Scripts\Player.cs" />
      <Compile Include="Assets\jetroid\Scripts\PlayerController.cs" />
      <Compile Include="Assets\jetroid\Scripts\RandomSprite.cs" />
