@@ -4,6 +4,10 @@ using UnityEngine;
 
 public class Explode : MonoBehaviour {
 
+
+	public Debris debris ;
+	public int nbrDebris = 10 ;
+
 	// Use this for initialization
 	void Start () {
 		
@@ -21,6 +25,17 @@ public class Explode : MonoBehaviour {
 	}
 
 	void OnExplode() {
+		var t = transform;
+
+		for(int i = 0 ; i < nbrDebris; i++){
+			t.TransformPoint(0, -100, 0);
+			Debris clone = Instantiate(debris, t.position, Quaternion.identity) ;
+
+			Rigidbody2D body2D = clone.GetComponent<Rigidbody2D>();
+			body2D.AddForce(Vector3.right * Random.Range(-1000, 1000)) ;
+			body2D.AddForce(Vector3.up * Random.Range(500, 2000)) ;
+
+		}
 		Destroy(gameObject);
 	}
 }
