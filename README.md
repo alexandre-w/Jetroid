@@ -1,4 +1,4 @@
 # Jetroid
 Adventure game with Unity3D
 
-![alt text](https://raw.githubusercontent.com/alexandre-w/Jetroid/screenshots/screen_game.png)
+![alt text](https://github.com/alexandre-w/Jetroid/blob/master/screenshots/screen_game.png)
